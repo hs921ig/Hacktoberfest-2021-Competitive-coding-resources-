@@ -9,7 +9,7 @@ void printNode(NODE n1)
 }
 
 LIST createNewList(){
-	LIST myList;
+	LIST myListl;
 	myList = (LIST) malloc(sizeof(struct linked_list));
 	// myList = (LIST) malloc(sizeof(*LIST));
 	myList->count=0;
